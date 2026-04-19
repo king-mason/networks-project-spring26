@@ -26,16 +26,27 @@ TARGETS = {
     "Singapore":    {"url": "http://www.google.com.sg",  "coords": (1.3521,   103.8198), "continent": "Asia"},
 }
 
-# TARGETS = {
-#     "Tokyo":     {"url": "http://ec2.ap-northeast-1.amazonaws.com",  "coords": (35.6762,  139.6503), "continent": "Asia"},
-#     "São Paulo": {"url": "http://ec2.sa-east-1.amazonaws.com",       "coords": (-23.5505, -46.6333), "continent": "S. America"},
-#     "Frankfurt": {"url": "http://ec2.eu-central-1.amazonaws.com",    "coords": (50.1109,    8.6821), "continent": "Europe"},
-#     "Sydney":    {"url": "http://ec2.ap-southeast-2.amazonaws.com",  "coords": (-33.8688, 151.2093), "continent": "Oceania"},
-#     "Mumbai":    {"url": "http://ec2.ap-south-1.amazonaws.com",      "coords": (19.0760,   72.8777), "continent": "Asia"},
-#     "London":    {"url": "http://ec2.eu-west-2.amazonaws.com",       "coords": (51.5074,   -0.1278), "continent": "Europe"},
-#     "Singapore": {"url": "http://ec2.ap-southeast-1.amazonaws.com",  "coords": (1.3521,   103.8198), "continent": "Asia"},
-#     "Cape Town": {"url": "http://ec2.af-south-1.amazonaws.com",      "coords": (-33.9249,  18.4241), "continent": "Africa"},
-# }
+TARGETS = {
+    "Tokyo":     {"url": "http://ec2.ap-northeast-1.amazonaws.com",  "coords": (35.6762,  139.6503), "continent": "Asia"},
+    "São Paulo": {"url": "http://ec2.sa-east-1.amazonaws.com",       "coords": (-23.5505, -46.6333), "continent": "S. America"},
+    "Frankfurt": {"url": "http://ec2.eu-central-1.amazonaws.com",    "coords": (50.1109,    8.6821), "continent": "Europe"},
+    "Sydney":    {"url": "http://ec2.ap-southeast-2.amazonaws.com",  "coords": (-33.8688, 151.2093), "continent": "Oceania"},
+    "Mumbai":    {"url": "http://ec2.ap-south-1.amazonaws.com",      "coords": (19.0760,   72.8777), "continent": "Asia"},
+    "London":    {"url": "http://ec2.eu-west-2.amazonaws.com",       "coords": (51.5074,   -0.1278), "continent": "Europe"},
+    "Singapore": {"url": "http://ec2.ap-southeast-1.amazonaws.com",  "coords": (1.3521,   103.8198), "continent": "Asia"},
+    "Cape Town": {"url": "http://ec2.af-south-1.amazonaws.com",      "coords": (-33.9249,  18.4241), "continent": "Africa"},
+}
+
+TARGETS = {
+    "Sendai":       {"url": "http://www.tohoku.ac.jp",  "coords": (38.2682, 140.8694), "continent": "Asia"},
+    "Seoul":        {"url": "http://www.snu.ac.kr",     "coords": (37.5665, 126.9780), "continent": "Asia"},
+    "New Delhi":    {"url": "http://www.iitd.ac.in",    "coords": (28.6139,  77.2090), "continent": "Asia"},
+    "Santiago":     {"url": "http://www.uchile.cl",     "coords": (-33.4489, -70.6693), "continent": "S. America"},
+    "Johannesburg": {"url": "http://www.wits.ac.za",    "coords": (-26.2041,  28.0473), "continent": "Africa"},
+    "Berlin":       {"url": "http://www.fu-berlin.de",  "coords": (52.5200,  13.4050), "continent": "Europe"},
+    "London":       {"url": "http://www.imperial.ac.uk","coords": (51.5074,  -0.1278), "continent": "Europe"},
+    "Canberra":     {"url": "http://www.anu.edu.au",    "coords": (-35.2809, 149.1300), "continent": "Oceania"},
+}
 
 PROBES           = 15
 FIBER_SPEED_KM_S = 200_000
